@@ -1,11 +1,16 @@
 
-//color palettes
-$color-1: #EAEAE1; // Light gray - Background color
-$color-2: #B9B9B7; // Darker gray - Accent shapes
-$color-3: #565654; // Darkest gray - Attention shapes
+$color-1: #DCD5D0; // Light gray - Background color
+$color-2: #7b7a6d; // Darker gray - Accent shapes
+$color-3: #55554c; // Darkest gray - Attention shapes
 $color-4: #D45C10; // Orange - Important titles and page accents
 $color-5: #000000; // Black - Font
 $color-6: #ffffff; // White - For fonts over the darker and darkest grays
+
+// // additional colors
+
+
+$success: #6fce72; // green
+$alert: $color-3;  // red
 
 // fonts
 
@@ -17,13 +22,12 @@ xTypography
 
 -------------------------------- */
 
-h2 {
+h1, h2 {
 	font-family: $secondary-font;
-	color: $color-3;
+	color: $color-2;
 }
 
 h1 {
-    color: $color-6;
 	font-size: 2.4rem;
 	font-weight: 300;
 	line-height: 1.2;
@@ -55,12 +59,12 @@ section > h2::before {
 }
 
 p {
-	font-size: 1.1rem;
-	line-height: 1.3;
-	color: $color-3;
+	font-size: 1.4rem;
+	line-height: 1.4;
+	color: lighten($color-2, 25%);
 
 	a {
-		
+		color: $color-1;
 		text-decoration: underline;
 	}
 
@@ -68,8 +72,4 @@ p {
 		font-size: 1.6rem;
 		line-height: 1.6;
 	}
-}
-
-.explanation, .benefits {
-    padding: 2em;
 }
