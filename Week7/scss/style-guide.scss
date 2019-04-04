@@ -1,0 +1,175 @@
+@import 'partials/layout'; // responsive grid and media queries
+@import 'partials/navigation';
+@import 'partials/prefix-mixins';
+@import 'partials/typography';
+@import url('https://fonts.googleapis.com/css?family=Roboto'); //color palettes
+$color-1: #EAEAE1; // Light gray - Background color
+$color-2: #B9B9B7; // Darker gray - Accent shapes
+$color-3: #565654; // Darkest gray - Attention shapes
+$color-4: #D45C10; // Orange - Important titles and page accents
+$color-5: #000000; // Black - Font
+$color-6: #ffffff; // White - For fonts over the darker and darkest grays
+// fonts
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+/* --------------------------------
+
+xBackground
+
+-------------------------------- */
+.benefits,
+.explanation {
+  padding: 1.25em;
+  border-right: solid 10em $color-4;
+}
+
+body {
+  /* this is the page background */
+  background-color: $color-2;
+  color: $color-3;
+}
+
+h1 {
+  grid-column: 1/2;
+  background-color: $color-4;
+  //width: 60%;
+  padding: 1em;
+  font-size: 2em;
+  align-self: center;
+}
+
+.intro,
+.participation,
+.requirements {
+  background-color: $color-1;
+  padding: 2em;
+  display: grid;
+  grid-template-rows: repeat(4 1fr);
+  grid-template-columns: repeat(3 1fr);
+}
+
+.banner {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.summary {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.preamble {
+  background-color: $color-3;
+  color: $color-6;
+  width: 100%;
+  border: 100px solid $color-3;
+  border-radius: 70%;
+  grid-row: 1/4;
+  grid-column: 2/3;
+
+  > p {
+    background-color: $color-3;
+    color: $color-6;
+  }
+}
+
+.participation,
+.requirements {
+  border-left: solid 10em $color-4;
+}
+
+.intro h2 {
+  text-align: center;
+  grid-column: 2/3;
+}
+
+.sidebar {
+  background-color: $color-3;
+}
+/* --------------------------------
+
+xSidebar
+
+-------------------------------- */
+.sidebar .wrapper {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding-bottom: 2em;
+  color: $color-6;
+  border-bottom: solid 3em $color-5;
+  border-bottom-width: 100%;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: $color-6;
+}
+
+.sidebar h3 {
+  text-align: left;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  color: $color-6;
+}
+
+.sidebar li {
+  line-height: 1.3em;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.summary {
+  border-bottom: solid thin $color-4;
+}
+
+#design-selection {
+  width: 30%;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-left: 3em;
+}
+
+#design-archives {
+  width: 25%;
+  margin-right: 0;
+  margin-left: 5%;
+}
+
+#zen-resources {
+  width: 30%;
+  margin-right: 0;
+}
+/* --------------------------------
+
+xPage title
+
+-------------------------------- */
+/* --------------------------------
+
+xButtons
+
+-------------------------------- */
+/* --------------------------------
+
+xIcons
+
+-------------------------------- */
+.cd-icons li {
+  /* icons size */
+  width: 32px;
+  height: 32px;
+}
+/* --------------------------------
+
+xForm
+
+-------------------------------- */
+@import 'partials/basic-style';

@@ -1,0 +1,75 @@
+
+//color palettes
+$color-1: #EAEAE1; // Light gray - Background color
+$color-2: #B9B9B7; // Darker gray - Accent shapes
+$color-3: #565654; // Darkest gray - Attention shapes
+$color-4: #D45C10; // Orange - Important titles and page accents
+$color-5: #000000; // Black - Font
+$color-6: #ffffff; // White - For fonts over the darker and darkest grays
+
+// fonts
+
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Open Sans', sans-serif;
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+h2 {
+	font-family: $secondary-font;
+	color: $color-3;
+}
+
+h1 {
+    color: $color-6;
+	font-size: 2.4rem;
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 0 0 .4em;
+
+	@include MQ(S) {
+		font-size: 3.2rem;
+	}
+
+	@include MQ(M) {
+		font-size: 4rem;
+	}
+}
+
+h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 1em 0;
+
+	@include MQ(S) {
+		font-size: 1.8rem;
+		margin: 1em 0 1.4em;
+	}
+}
+
+section > h2::before {
+	/* number before each section title */
+	color: darken($color-4, 15%);
+}
+
+p {
+	font-size: 1.1rem;
+	line-height: 1.3;
+	color: $color-3;
+
+	a {
+		
+		text-decoration: underline;
+	}
+
+	@include MQ(S) {
+		font-size: 1.6rem;
+		line-height: 1.6;
+	}
+}
+
+.explanation, .benefits {
+    padding: 2em;
+}
