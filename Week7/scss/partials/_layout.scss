@@ -1,3 +1,9 @@
+$color-1: #EAEAE1; // Light gray - Background color
+$color-2: #B9B9B7; // Darker gray - Accent shapes
+$color-3: #565654; // Darkest gray - Attention shapes
+$color-4: #D45C10; // Orange - Important titles and page accents
+$color-5: #000000; // Black - Font
+$color-6: #ffffff; // White - For fonts over the darker and darkest grays
 // breakpoints
    
 $S:     768px;   
@@ -23,5 +29,59 @@ $L:     1600px;
 @mixin column($percentage, $float-direction:left) {
   width: 100% * $percentage;
   float: $float-direction;
+}
+
+//large view
+@include MQ(M) {
+    .page-wrapper {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        
+     
+    }
+    
+    .intro {
+        width: 70%;
+        height: 40%;
+      
+    }
+    
+    .main {
+        width: 70%;
+        height: 60%;
+    
+    }
+    
+    aside.sidebar .wrapper {
+        width: 30%;
+        height: 100%;
+        margin-top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;    
+    }
+    
+    div.wrapper {
+          background-color: $color-3;
+       
+        padding-top: 1%;
+        line-height: 1em;
+        display: flex;
+        flex-direction: row;
+        
+      
+    }
+    
+
+    
+    h3 {
+        color: $color-2;
+    }
+    
+  
+    
+  
 }
 
