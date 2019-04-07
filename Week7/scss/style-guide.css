@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@media only screen and (min-width: 1024px) {
+  /* line 36, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  .page-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column; }
+  /* line 44, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  .intro {
+    width: 70%;
+    height: 40%; }
+  /* line 50, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  .main {
+    width: 70%;
+    height: 60%; }
+  /* line 56, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  aside.sidebar .wrapper {
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px; }
+  /* line 66, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  div.wrapper {
+    background-color: #565654;
+    padding-top: 1%;
+    line-height: 1em;
+    display: flex;
+    flex-direction: row; }
+  /* line 79, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_layout.scss */
+  h3 {
+    color: #B9B9B7; } }
+
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+/* line 20, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #565654; }
+
+/* line 25, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+h1 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em; }
+  @media only screen and (min-width: 768px) {
+    /* line 25, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+    h1 {
+      font-size: 3.2rem; } }
+  @media only screen and (min-width: 1024px) {
+    /* line 25, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+    h1 {
+      font-size: 4rem; } }
+
+/* line 41, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0; }
+  @media only screen and (min-width: 768px) {
+    /* line 41, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+    h2 {
+      font-size: 1.8rem;
+      margin: 1em 0 1.4em; } }
+
+/* line 52, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+h3 {
+  font-weight: normal; }
+
+/* line 56, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+section > h2::before {
+  /* number before each section title */
+  color: #8d3d0b; }
+
+/* line 63, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+p {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: #565654; }
+  /* line 68, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+  p a {
+    text-decoration: underline; }
+  @media only screen and (min-width: 768px) {
+    /* line 63, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6; } }
+
+/* line 79, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+.explanation, .benefits {
+  padding: 2em; }
+
+/* line 82, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+footer {
+  text-align: center;
+  font-size: 0.8em; }
+
+/* line 88, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_typography.scss */
+footer a:visited, footer a:link, footer a {
+  text-decoration: none;
+  color: #565654; }
+
+/* --------------------------------
+
+xBackground
+
+-------------------------------- */
+/* line 20, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.benefits,
+.explanation {
+  padding: 1.25em;
+  border-right: solid 2em #D45C10; }
+  @media only screen and (min-width: 1024px) {
+    /* line 20, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    .benefits,
+    .explanation {
+      border-right: solid 6em #D45C10; } }
+
+/* line 30, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+html, body {
+  height: 100%; }
+
+/* line 34, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+body {
+  /* this is the page background */
+  background-color: #B9B9B7;
+  color: #565654; }
+
+/* line 40, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+h1 {
+  grid-column: 1/2;
+  background-color: #D45C10;
+  padding: 1em;
+  font-size: 2em;
+  align-self: center;
+  transition: 0.8s; }
+
+/* line 50, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+h1:hover {
+  opacity: 1; }
+
+/* line 52, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.intro,
+.participation,
+.requirements {
+  background-color: #EAEAE1;
+  padding: 2em;
+  display: grid;
+  grid-template-rows: repeat(4 1fr);
+  grid-template-columns: repeat(3 1fr); }
+
+/* line 62, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.banner {
+  grid-column: 1/4;
+  grid-row: 1/2; }
+
+/* line 67, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.summary {
+  grid-column: 1/2;
+  grid-row: 2/3; }
+
+/* line 72, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.preamble {
+  background-color: #565654;
+  color: #EAEAE1;
+  width: 100%;
+  border: 60px solid #565654;
+  border-radius: 70%;
+  grid-row: 1/4;
+  grid-column: 2/3;
+  text-align: center;
+  margin-left: 3%; }
+  /* line 85, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+  .preamble > p {
+    background-color: #565654;
+    color: #ffffff;
+    font-size: 0.8em;
+    line-height: 1em; }
+
+/* line 95, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+abbr[title] {
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 100, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.participation,
+.requirements {
+  border-left: solid 2em #D45C10; }
+  @media only screen and (min-width: 1024px) {
+    /* line 100, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    .participation,
+    .requirements {
+      border-left: solid 6em #D45C10; } }
+
+/* line 109, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.intro h2 {
+  text-align: center;
+  grid-column: 2/3; }
+
+/* line 114, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar {
+  background-color: #565654; }
+
+/* --------------------------------
+
+xSidebar
+
+-------------------------------- */
+/* line 122, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar .wrapper {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding-bottom: 2em;
+  color: #ffffff;
+  border-bottom: solid 3em #000000;
+  border-bottom-width: 100%; }
+  @media only screen and (min-width: 1024px) {
+    /* line 122, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    .sidebar .wrapper {
+      border-bottom: none;
+      border-bottom-width: 0%;
+      display: block; } }
+
+/* line 141, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar a {
+  text-decoration: none;
+  color: #ffffff; }
+
+/* line 146, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar h3 {
+  text-align: left; }
+
+/* line 150, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  color: #ffffff; }
+
+/* line 156, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.sidebar li {
+  line-height: 1.3em;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  list-style-type: none; }
+  @media only screen and (min-width: 1024px) {
+    /* line 156, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    .sidebar li {
+      line-height: 1em; } }
+
+/* line 167, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.summary {
+  border-bottom: solid thin #D45C10; }
+
+/* line 171, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+#design-selection {
+  width: 30%;
+  margin-right: 3%;
+  margin-left: 0%;
+  padding-left: 3em; }
+  @media only screen and (min-width: 1024px) {
+    /* line 171, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    #design-selection {
+      width: 100%;
+      margin: 0;
+      height: auto;
+      background-color: #565654;
+      padding: 50px 10px 10px 10px;
+      font-size: .9em;
+      padding-bottom: 100px; } }
+
+/* line 189, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+#design-archives {
+  width: 25%;
+  margin-right: 0;
+  margin-left: 5%; }
+  @media only screen and (min-width: 1024px) {
+    /* line 189, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    #design-archives {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      background-color: #565654;
+      padding: 10px;
+      font-size: .9em;
+      padding-bottom: 100px; } }
+
+/* line 205, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+#zen-resources {
+  width: 30%;
+  margin-right: 0; }
+  @media only screen and (min-width: 1024px) {
+    /* line 205, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+    #zen-resources {
+      width: 110%;
+      margin-left: -10px;
+      height: auto;
+      background-color: #565654;
+      padding: 20px;
+      font-size: .9em;
+      padding-bottom: 40%;
+      border-bottom: solid thick #565654;
+      border-bottom-width: 40%; } }
+
+/* line 222, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.extra1 {
+  text-align: center;
+  bacground-color: #000000; }
+
+/* line 226, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.extra1::before {
+  content: "By Kevin Bingham, Jemifer Judilla, and Marlene Trujillo";
+  bacground: #000000;
+  height: 2em;
+  width: 100%;
+  color: #565654;
+  font-size: 0.8em; }
+
+/* line 235, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+a {
+  cursor: pointer; }
+
+/* --------------------------------
+
+xPage title
+
+-------------------------------- */
+/* --------------------------------
+
+xButtons
+
+-------------------------------- */
+/* --------------------------------
+
+xIcons
+
+-------------------------------- */
+/* line 254, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/style-guide.scss */
+.cd-icons li {
+  /* icons size */
+  width: 32px;
+  height: 32px; }
+
+/* --------------------------------
+
+xForm
+
+-------------------------------- */
+/* -------------------------------- 
+
+xBasic style
+
+-------------------------------- */
+/* line 7, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 11, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 16, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 20, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif; }
+
+/* line 25, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+a {
+  text-decoration: none; }
+
+/* line 29, /Users/marlenetrujillo/Desktop/1-Winter 2019/WDD331/newzengarden/zengarden/ZenGardenFinal/Week7/scss/partials/_basic-style.scss */
+img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=style-guide.css.map */

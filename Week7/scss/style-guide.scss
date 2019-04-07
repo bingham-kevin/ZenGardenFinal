@@ -44,7 +44,10 @@ h1 {
   padding: 1em;
   font-size: 2em;
   align-self: center;
+    transition: 0.8s;
 }
+
+h1:hover {opacity: 1}
 
 .intro,
 .participation,
